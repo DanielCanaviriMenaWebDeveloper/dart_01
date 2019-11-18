@@ -18,7 +18,11 @@ void main() {
   String cadena4 = 'Esta es otra \'cadena\' de caracteres';
   print(cadena4);
 
-  
-
-
+  //Obtener el primer caracter de una cadena
+  String cadena5 = "Daniel";
+  print(cadena5[0]);
+  //Obtener la cantidad de caracteres de la cadena
+  print("La cantidad de caracteres de la cadena es : " + cadena5.length.toString());
+  //Obtener el ultimo carcater de la cadena
+  print(cadena5[cadena5.length - 1]);
 }
